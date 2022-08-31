@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const protoHTML = require('./src/protoHTML.js');
+const generateHTML = require('./src/generateHTML');
 
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
